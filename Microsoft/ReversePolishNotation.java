@@ -3,7 +3,7 @@ package Microsoft;
 import java.util.Stack;
 
 public class ReversePolishNotation {
-    class Solution {
+
         public int evalRPN(String[] tokens) {
             Stack<Integer> st = new Stack<>();
             for(String t : tokens){
@@ -26,5 +26,5 @@ public class ReversePolishNotation {
             else
                 return a/b;
         }
-    }
+
 }
